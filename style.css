@@ -28,3 +28,20 @@ ul {
     gap: 12px;
     font-size: 20px;
 }
+
+.container-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
