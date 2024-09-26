@@ -51,6 +51,20 @@ p.title {
     flex-direction: column;
 }
 
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button.sign-up {
+    background-color: royalblue;
+    border: 1px royalblue;
+    border-radius: 10px;
+    color: white;
+    width: 200px ;
+}
+
 .img-placeholder {
     display: flex;
     justify-content: center;
@@ -61,3 +75,4 @@ p.title {
     width:700px;
     height: 300px;
 }
+
