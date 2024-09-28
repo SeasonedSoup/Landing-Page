@@ -1,17 +1,22 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 
-body {
+.body {
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    background-color: rgb(33, 33, 48);
+    justify-content: space-evenly;
     font-size: 18px;
+    background-color: #1F2937
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 a {
@@ -20,16 +25,15 @@ a {
 }
 
 
-.header {
+.navbar {
     color: white;
     flex: 1;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 24px;
 }
 
-.header-links {
+.navbar-right {
     font-size: 18px;
 }
 
@@ -40,6 +44,7 @@ ul {
     padding: 0;
     gap: 12px;
     font-size: 20px;
+    color: #e5e7eb;
 }
 
 .container-top {
@@ -47,6 +52,7 @@ ul {
     justify-content: center;
     align-items: center;
     color: white;
+    flex-grow: 1;
 }
 
 .title {
@@ -70,17 +76,12 @@ button.sign-up {
     border: 1px royalblue;
     border-radius: 10px;
     color: white;
-    width: 200px ;
+    width: 100px ;
+    font-weight: 900;
 }
 
-.img-placeholder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: gray;
-    padding: 100px;
-    margin-top: 100px;
-    width:700px;
+.water {
+    width:500px;
     height: 300px;
 }
 
