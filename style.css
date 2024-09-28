@@ -119,7 +119,7 @@ button.sign-up {
     max-width: 150px;
 }
 
-.container-end {
+.container-midend {
     background-color: #e5e7eb;
     font-size: 2em;
     font-style: italic;
@@ -133,4 +133,32 @@ button.sign-up {
 #Thor {
     align-self: flex-end;
     font-weight: bold;
+}
+
+.container-action {
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rectangle-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: royalblue;
+    padding: 50px 100px;
+    align-items: baseline;
+}
+
+.sign-up {
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
