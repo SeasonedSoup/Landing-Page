@@ -85,3 +85,30 @@ button.sign-up {
     height: 300px;
 }
 
+.container-middle {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+}
+
+.box {
+    border-radius: 20px;
+    border: 3px solid blue;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.inner-container-middle {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    flex-wrap: wrap;
+}
+
+.container-info {
+    max-width: 200px;
+}
+
