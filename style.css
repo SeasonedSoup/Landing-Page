@@ -9,7 +9,6 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     font-size: 18px;
     background-color: #1F2937;
 }
@@ -31,6 +30,11 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
+}
+
+.navbar-left {
+    font-weight: 900;
 }
 
 .navbar-right {
@@ -42,27 +46,34 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    gap: 12px;
+    gap: 22px;
     font-size: 20px;
     color: #e5e7eb;
+    margin-left: 100px;
 }
 
 .container-top {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     color: white;
     flex-grow: 1;
+    padding: 90px
 }
 
 .title {
     font-size: 3em;
     font-weight: 900;
+    margin-bottom: 10px;
 }
 
+.titlesub {
+    margin-bottom: 10px;
+}
 .info {
     display: flex;
     flex-direction: column;
+    
 }
 
 button {
@@ -83,6 +94,7 @@ button.sign-up {
 .water {
     width:500px;
     height: 300px;
+    margin-left: 100px;
 }
 
 .container-middle {
@@ -91,6 +103,7 @@ button.sign-up {
     background-color: white;
     text-align: center;
     align-items: center;
+    padding: 40px
 }
 
 .subtitle2 {
@@ -125,9 +138,15 @@ button.sign-up {
     font-style: italic;
     font-weight: 300;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 63px;
+}
+
+.quote-container {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
 }
 
 #Thor {
@@ -141,6 +160,7 @@ button.sign-up {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 90px
     
 }
 
@@ -149,16 +169,30 @@ button.sign-up {
     justify-content: space-around;
     background-color: royalblue;
     padding: 50px 100px;
-    align-items: baseline;
-}
-
-.sign-up {
-    border: 3px solid white;
+    align-items: center;
+    flex-basis: 1050px;
     border-radius: 10px;
 }
+
+#call {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+button.last-sign-up {
+    border-radius: 10px;
+    align-self: center;
+    background-color: royalblue;
+    border: 1px solid white;
+    color: white;
+    width: 100px;
+    font-weight: bolder;
+    font-size: 0.8em;
+}
+
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    padding: 40px
 }
